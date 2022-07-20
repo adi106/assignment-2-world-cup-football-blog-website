@@ -5,50 +5,336 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- title  -->
     <title>World Cup Blog Site</title>
-    <!-- Css stylesheet -->
-    <link rel="stylesheet" href="styles/style.css">
-    <!-- font awesome  -->
-    <script src="https://kit.fontawesome.com/847acfb36b.js" crossorigin="anonymous"></script>
-    <!--font google-->
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/fav.png">
+    <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
-    <!-- header -->
-    <header>
-        <div class="top-banner">
-            <div class="header-left header-content">
-                <h1>The Greatest show on the earth</h1>
-                <p>World Cup, It is likely the most popular sporting event in
-                    the world, drawing billions of television viewers every tournament. </p> <br>
-                <div class="anchor-style">
-                    <a href="" class="anchor-tag">Watch Live <span><i
-                                class="fa-solid fa-arrow-right-long"></i></span></a>
+    <div class="banner">
+        <!--top banner-->
+        <section class="kick">
+            <div class="container">
+                <div class="player">
+                    <div class="inside heading">
+                        <h1 class="title">
+                            FIFA World Cup Blog Site
+                        </h1>
+                        <p class="heading-subtitle">
+                            World Cup, It is likely the most popular sporting event in the world, drawing billions of
+                            television viewers every tournament.
+                        </p>
+                        <a href="" class="btn">
+                            <span>Watch Live <i class="fa fa-arrow-right-long"></i></span>
+                        </a>
+                    </div>
+                    <div class="inside banner-image">
+                        <img src="images/trophy.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- blog and menu -->
+        <main>
+            <div class="container">
+                <div class="flex box">
+                    <div class="buttons">
+                        <a href="match.html" class="menu-btn">
+                            <span>Upcoming Match</span>
+                        </a>
+                        <a href="" class="menu-btn all">
+                            <span>All Groups</span>
+                        </a>
+                        <a href="index.html" class="menu-btn active">
+                            <span>Blogs</span>
+                        </a>
+                    </div>
+                    <div class="blogs">
+                        <article class="blog">
+                            <img src="images/Blog Image.png" class="blog-img" alt="">
+                            <div class="blog-body">
+                                <button class="blog-button">
+                                    Transfer
+                                </button>
+                                <h3 class="blog-heading">
+                                    Transfer Live: Chlesea in talks
+                                    over Kimpenbe transfer
+                                </h3>
+                                <div class="icons">
+                                    <div class="flex">
+                                        <div class="ic">
+                                            <i class="far fa-clock"></i> 2h
+                                        </div>
+                                        <div class="ic comment">
+                                            <i class="far fa-comment"></i> 35
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="blog">
+                            <img src="images/real madrid.jpg" class="blog-img" alt="">
+                            <div class="blog-body">
+                                <button class="blog-button">
+                                    See More
+                                </button>
+                                <h3 class="blog-heading">
+                                    Real Madrid wins UCL 14 times!
+                                </h3>
+                                <div class="icons">
+                                    <div class="flex">
+                                        <div class="ic">
+                                            <i class="far fa-clock"></i> 8h
+                                        </div>
+                                        <div class="ic comment">
+                                            <i class="far fa-comment"></i> 98
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="blog">
+                            <img src="images/embappe.jpg" class="blog-img" alt="">
+                            <div class="blog-body">
+                                <button class="blog-button">
+                                    See More
+                                </button>
+                                <h3 class="blog-heading">
+                                    Embappe Stays in PSG
+                                </h3>
+                                <div class="icons">
+                                    <div class="flex">
+                                        <div class="ic">
+                                            <i class="far fa-clock"></i> 12h
+                                        </div>
+                                        <div class="ic comment">
+                                            <i class="far fa-comment"></i> 47
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="blog">
+                            <img src="images/kaka.jpg" class="blog-img" alt="">
+                            <div class="blog-body">
+                                <button class="blog-button">
+                                    See More
+                                </button>
+                                <h3 class="blog-heading">
+                                    Kaka retires from football
+                                </h3>
+                                <div class="icons">
+                                    <div class="flex">
+                                        <div class="ic">
+                                            <i class="far fa-clock"></i> 17h
+                                        </div>
+                                        <div class="ic comment">
+                                            <i class="far fa-comment"></i> 99
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="blog">
+                            <img src="images/halaand.jpg" class="blog-img" alt="">
+                            <div class="blog-body">
+                                <button class="blog-button">
+                                    Transfer
+                                </button>
+                                <h3 class="blog-heading">
+                                    Erling Haaland finally goes to Manchester City
+                                </h3>
+                                <div class="icons">
+                                    <div class="flex">
+                                        <div class="ic">
+                                            <i class="far fa-clock"></i> 6h
+                                        </div>
+                                        <div class="ic comment">
+                                            <i class="far fa-comment"></i> 52
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="blog">
+                            <img src="images/lewandonoski.jpg" class="blog-img" alt="">
+                            <div class="blog-body">
+                                <button class="blog-button">
+                                    Transfer
+                                </button>
+                                <h3 class="blog-heading">
+                                    Lewandonoski is in talk with Barcelona
+                                </h3>
+                                <div class="icons">
+                                    <div class="flex">
+                                        <div class="ic">
+                                            <i class="far fa-clock"></i> 2h
+                                        </div>
+                                        <div class="ic comment">
+                                            <i class="far fa-comment"></i> 47
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="blog">
+                            <img src="images/cr7.jpg" class="blog-img" alt="">
+                            <div class="blog-body">
+                                <button class="blog-button">
+                                    See More
+                                </button>
+                                <h3 class="blog-heading">
+                                    Cristiano Ronaldo crosses 800 goals
+                                </h3>
+                                <div class="icons">
+                                    <div class="flex">
+                                        <div class="ic">
+                                            <i class="far fa-clock"></i> 7h
+                                        </div>
+                                        <div class="ic comment">
+                                            <i class="far fa-comment"></i> 72
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="blog">
+                            <img src="images/stadium.jpg" class="blog-img" alt="">
+                            <div class="blog-body">
+                                <button class="blog-button">
+                                    See More
+                                </button>
+                                <h3 class="blog-heading">
+                                    See the stadiums of World Cup Football 2022 in Qatar
+                                </h3>
+                                <div class="icons">
+                                    <div class="flex">
+                                        <div class="ic">
+                                            <i class="far fa-clock"></i> 1h
+                                        </div>
+                                        <div class="ic comment">
+                                            <i class="far fa-comment"></i> 12
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="blog">
+                            <img src="images/messi.jpg" class="blog-img" alt="">
+                            <div class="blog-body">
+                                <button class="blog-button">
+                                    Blog
+                                </button>
+                                <h3 class="blog-heading">
+                                    How Leonel Messi become Barcelona's great
+                                </h3>
+                                <div class="icons">
+                                    <div class="flex">
+                                        <div class="ic">
+                                            <i class="far fa-clock"></i> 5h
+                                        </div>
+                                        <div class="ic comment">
+                                            <i class="far fa-comment"></i> 51
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="view hold">
+                    <a href="" class="btn">
+                        <span>View All</span>
+                    </a>
+                </div>
+
+
+            </div>
+        </main>
+
+    </div>
+    </div>
+    </main>
+    </div>
+
+    <!-- footer -->
+
+    <footer>
+        <div class="container">
+            <div class="view">
+                <h2 class="footer-heading">Football</h2>
+                <p class="quotes">“The more difficult the victory, the greater the happiness in winning.” – Pelé</p>
+                <div class="line">
 
                 </div>
-            </div>
-            <div class="header-content">
-                <img src="./images/Banner Image.png" alt="">
+                <ul class="footer-menu">
+                    <li>
+                        <a href="">
+                            Contact Us
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            Terms of Service
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            Privacy Policy
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            Privacy Settings
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            Goal App
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            Goal Live
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="social">
+                    <li>
+                        <a href="https://www.facebook.com/emox.psyco" target="_blank" class="social-site">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/aditya_bhattacharjee1234" target="_blank"
+                            class="social-site">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/aditya-bhattacharjee-6214a31a6/" target="_blank"
+                            class="social-site">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
-    </header>
-    <!-- main section blog -->
-    <main>
-        <section class="main-top-section">
-            <div class="side">
-                <div class="side-link">
-                    <a href="">Upcoming Match</a>
-                    <a href="">All Group</a>
-                    <a href="" class="link-selected">Blog</a>
-                </div>
-            </div>
-        </section>
-    </main>
+    </footer>
+
 </body>
 
 </html>
