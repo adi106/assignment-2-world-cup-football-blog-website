@@ -116,7 +116,7 @@ img {
 }
 
 .player:hover .banner-image img {
-    transform: rotate(20deg) scale(1.2);
+    transform: rotate(25deg) scale(1.2);
 }
 
 /* menu and blogs */
@@ -207,6 +207,7 @@ main {
     transition: 0.5s;
     cursor: pointer;
     border-radius: 5px;
+    background-color: antiquewhite;
 }
 
 .blog-body {
@@ -268,7 +269,6 @@ main {
     border-radius: 15px;
     text-align: center;
     justify-content: space-between;
-    padding: 15px;
 }
 
 .dols:hover {
@@ -277,6 +277,7 @@ main {
     transition: 0.5s;
     cursor: pointer;
     border-radius: 5px;
+    background-color: white;
 }
 
 .dols p {
@@ -375,6 +376,7 @@ footer {
     transform: translateY(-10px);
     transition: 0.4s;
     cursor: pointer;
+    background-color: wheat;
 }
 
 .flex.flags {
