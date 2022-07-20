@@ -45,7 +45,6 @@ img {
 .title {
     font-size: 60px;
     font-weight: 700;
-    line-height: 1.2;
     color: goldenrod;
 }
 
@@ -252,13 +251,12 @@ main {
 .groups {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
     padding-left: 25px;
-
-}
-
-.groups h2 {
+    width: 100%;
     text-align: center;
-
+    justify-content: space-between;
+    margin: auto;
 }
 
 .dols {
@@ -266,6 +264,19 @@ main {
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
     border: 1px solid #E8E8E8;
     margin-bottom: 5px;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    text-align: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.dols:hover {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    transform: translateY(-10px);
+    transition: 0.5s;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
 .dols p {
@@ -277,7 +288,7 @@ main {
 
 footer {
     background-color: black;
-    padding: 60px 0;
+    padding: 80px 0;
 }
 
 .view {
@@ -444,7 +455,7 @@ footer {
 
     .menu-btn {
         border: 1px solid #E8E8E8;
-        width: 32%;
+        width: 30%;
     }
 
     .blogs {
@@ -490,6 +501,13 @@ footer {
     .groups {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        padding-right: 30px;
+        margin-top: 10px;
+        overflow: hidden;
+    }
+
+    .dols {
+        overflow-x: hidden;
     }
 
 }
@@ -568,5 +586,6 @@ footer {
     .groups {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        overflow-x: hidden;
     }
 }
