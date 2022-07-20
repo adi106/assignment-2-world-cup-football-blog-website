@@ -247,6 +247,32 @@ main {
     margin-top: 60px;
 }
 
+/* groups */
+
+.groups {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-left: 25px;
+
+}
+
+.groups h2 {
+    text-align: center;
+
+}
+
+.dols {
+    padding: 40px 50px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #E8E8E8;
+    margin-bottom: 5px;
+}
+
+.dols p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
 /* footer */
 
 footer {
@@ -460,6 +486,12 @@ footer {
     .footer-menu li {
         margin: 10px 40px;
     }
+
+    .groups {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 }
 
 /* for mobiles */
@@ -531,5 +563,10 @@ footer {
 
     .view.hold {
         display: none;
+    }
+
+    .groups {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
     }
 }
