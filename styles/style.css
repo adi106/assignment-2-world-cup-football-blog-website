@@ -131,7 +131,7 @@ main {
 }
 
 .buttons {
-    background: rgb(2, 2, 31);
+    background: rgb(4, 4, 40);
     width: 400px;
     padding: 30px;
     border-radius: 10px;
@@ -289,7 +289,7 @@ main {
 /* footer */
 
 footer {
-    background-color: black;
+    background: linear-gradient(90deg, rgb(0, 0, 0), rgb(11, 1, 11), rgb(25, 3, 3));
     padding: 70px 0;
 }
 
