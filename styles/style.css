@@ -3,6 +3,7 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -38,6 +39,7 @@ img {
     align-items: center;
 }
 
+
 .inside {
     width: 50%;
 }
@@ -46,6 +48,22 @@ img {
     font-size: 60px;
     font-weight: 700;
     color: goldenrod;
+    animation-duration: 2.5s;
+    animation-name: bounce;
+    animation-iteration-count: linear;
+    animation-direction: alternate;
+}
+
+@keyframes bounce {
+    from {
+        margin-left: 140%;
+        width: 100%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
 }
 
 .heading-subtitle {
@@ -53,6 +71,7 @@ img {
     margin: 20px 0;
     color: green;
 }
+
 
 .btn {
     position: relative;
@@ -112,7 +131,7 @@ main {
 }
 
 .buttons {
-    background: black;
+    background: rgb(2, 2, 31);
     width: 400px;
     padding: 30px;
     border-radius: 10px;
