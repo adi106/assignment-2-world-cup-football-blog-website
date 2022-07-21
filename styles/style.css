@@ -48,7 +48,7 @@ img {
     font-size: 60px;
     font-weight: 700;
     color: goldenrod;
-    animation-duration: 2.5s;
+    animation-duration: 2.4s;
     animation-name: bounce;
     animation-iteration-count: linear;
     animation-direction: alternate;
@@ -183,6 +183,10 @@ main {
 .all {
     margin: 30px 0;
 }
+
+
+/* blogs */
+
 
 .blogs {
     padding-left: 24px;
