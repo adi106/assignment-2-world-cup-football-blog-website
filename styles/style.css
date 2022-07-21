@@ -262,7 +262,7 @@ main {
 }
 
 .dols {
-    padding: 40px 50px;
+    padding: 50px;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
     border: 1px solid #E8E8E8;
     margin-bottom: 5px;
@@ -284,6 +284,13 @@ main {
 .dols p {
     font-size: 20px;
     font-weight: 400;
+}
+
+.lines {
+    height: 1px;
+    margin-bottom: 5px;
+    margin-top: 3px;
+    background-color: #4D4D4D;
 }
 
 /* footer */
@@ -416,10 +423,11 @@ footer {
 
 /* media queries */
 
+
 /* for tablets */
 
 
-@media screen and (max-width:992px) {
+@media screen and (max-width:994px) {
     .container {
         max-width: 100%;
     }
